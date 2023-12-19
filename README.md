@@ -26,4 +26,4 @@
 
 Simple pytorch reimplementation just for self-education. 
 
-I can be used for training neural networks, and all layers, activations can be backpropagated.
+It can be used for training neural networks, all layers and activations can be backpropagated.
