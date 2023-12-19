@@ -2,7 +2,7 @@
 
 ```shell
 ├── README.md                        <- Top-level README
-├── test.ipynb                       <- report on Russian language
+├── test.ipynb                       <- call all tests
 ├── modules/                         <- modules implementation
 │   ├── __init__.py
 │   ├── activations.py
