@@ -1,10 +1,29 @@
-# dl-projects
+# pytorch-analogue
 
-This repository contains some of my DL projects:
-1. `pytorch-analogue` contains:
-    1. Layers: Linear, BatchNormalization, Dropout, Sequential
-    2. Activations: ReLU, Sigmoid, Softmax, LogSoftmax
-    3. Criterions: MSELoss, CrossEntropyLoss
-    4. Dataloader
+```shell
+├── README.md                        <- Top-level README
+├── test.ipynb                       <- report on Russian language
+├── modules/                         <- modules implementation
+│   ├── __init__.py
+│   ├── activations.py
+│   ├── base.py
+│   ├── criterions.py
+│   ├── dataloader.py
+│   ├── layers.py
+│   └── optimizers.py
+└── tests/
+    ├── __init__.py
+    ├── test_activations.py
+    ├── test_base.py
+    ├── test_bn.py
+    ├── test_criterions.py
+    ├── test_dataloader.py
+    ├── test_dropout.py
+    ├── test_linear.py
+    ├── test_optimizers.py
+    └── test_sequential.py
+```
 
-It can be used for training neural network, all layers and activations support backpropagation.
+Simple pytorch reimplementation just for self-education. 
+
+I can be used for training neural networks, and all layers, activations can be backpropagated.
